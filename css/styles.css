@@ -1,0 +1,107 @@
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left_division
+{
+padding : 10px;
+border-right : 3px solid white;
+float : left;
+width : 510px;
+background : black;
+color : white;
+height : 100vh;
+}
+
+.right_division
+{
+width:502px;
+float : right;
+background:#999999;
+height : 100vh;
+}
+
+.code
+{
+background : black;
+color : white;
+width : 100%;
+height: 98vh;
+border : none;
+outline : none;
+font-size: 12pt;
+overflow : auto;
+}
+
+.right_division_top_div
+{
+display : flex;
+margin-top : 0px;
+width : 100%;
+height : 22px;
+background :#000080;
+color : white;
+}
+
+.right_division_bottom_div
+{
+width : 100%;
+height : 9vh;
+color : #58080e ;
+background :#999999;
+padding-top : 20px;
+padding-left : 10px;
+}
+
+.programming_language_comboBox_division
+{
+margin-left : auto;
+color : #cf4d57;
+}
+
+.image_button
+{
+background: transparent;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.image_button img {
+  width: 12px;    
+  height: 12px;
+background: white;
+  object-fit: contain;
+padding : 2px;
+}
+
+.footer
+{
+height : 60px;
+widht : 100%;
+background : #415a77;
+border : 2px solid white;
+color : #fef9ef;
+padding : 13px;
+}
+
+.main
+{
+height :100vh;
+display : flex;
+background : black;
+}
+
+.header
+{
+background : #F5FFFA;
+color : red;
+margin-left : 700px;
+font-size: 12pt;
+font-weight : bold;
+}
+
+

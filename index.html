@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Online Compiler</title>
+<script src='/compiler/jquery/jquery.js'></script>
+<script src='/compiler/js/script.js'></script>
+<link rel="stylesheet" href='/compiler/css/styles.css'>
+</head>
+<body>
+
+
+<div class='header'>
+Online Compiler
+</div>
+
+
+<div class='main'>
+
+<!-- left division starts here -->
+<div id='left_division' class='left_division'>
+<textarea id='code' class='code' spellcheck='false' placeholder='write your code here...'></textarea>
+</div>
+<!-- left division ends here -->
+
+<!-- right division starts here-->
+<div id='right_division' class='right_division'>
+<!--right division top division starts here -->
+<div id='right_division_top_div' class='right_division_top_div'>
+<div style='display:flex;gap:3px'>
+<div><button id='compilebtn' class='image_button'><img src='/compiler/images/compile.png'></button></div>
+<div><button id='runbtn' class='image_button'><img src='/compiler/images/run.png'></button></div>
+</div>
+
+
+<div id='programming_language_comboBox_division' class='programming_language_comboBox_division'>
+<select id='programming_language_comboBox' class='programming_language_comboBox'>
+<option value='-1'>&lt;select&gt;</option>
+<option value='1'>C</option>
+<option value='2'>C++</option>
+<option value='3'>java</option>
+</select>
+</div>
+
+</div>
+<!--right division top division ends here -->
+
+<!--right division bottom division starts here -->
+<div id='right_division_bottom_div' class='right_division_bottom_div'>
+
+
+
+</div>
+<!--right division bottom division ends here -->
+
+
+</div>
+<!-- right division ends here -->
+</div>
+
+<div class='footer'>
+<center>
+#online compiler Built using jQuery
+<center>
+
+Developed by Nitin Jat
+
+</div>
+
+</body>
+</html>
